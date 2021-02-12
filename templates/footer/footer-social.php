@@ -22,6 +22,10 @@
                            echo '<a href="' . esc_url( get_theme_mod( 'avant-social-instagram' ) ) . '" target="_blank" title="' . esc_attr__( 'Find Us on Instagram', 'avant' ) . '" class="footer-social-icon footer-social-instagram"><i class="fab fa-instagram"></i></a>';
                        endif;
 
+                       if( get_theme_mod( 'avant-social-youtube' ) ) :
+                           echo '<a href="' . esc_url( get_theme_mod( 'avant-social-youtube' ) ) . '" target="_blank" title="' . esc_attr__( 'Subscribe to Us on YouTube', 'avant' ) . '" class="footer-social-icon footer-social-instagram"><i class="fab fa-instagram"></i></a>';
+                       endif;
+
                        if( get_theme_mod( 'avant-social-twitter' ) ) :
                            echo '<a href="' . esc_url( get_theme_mod( 'avant-social-twitter' ) ) . '" target="_blank" title="' . esc_attr__( 'Follow Us on Twitter', 'avant' ) . '" class="footer-social-icon footer-social-twitter"><i class="fab fa-twitter"></i></a>';
                        endif;

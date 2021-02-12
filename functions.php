@@ -17,6 +17,13 @@ function mishigami_theme_init() {
         'type'    => 'text',
     );
 
+    $options['avant-social-youtube'] = array(
+        'id' => 'avant-social-youtube',
+        'label'   => __( 'Youtube', 'avant' ),
+        'section' => $section,
+        'type'    => 'text',
+    );
+
     $customizer_library = Customizer_Library::Instance();
     $customizer_library->add_options( $options );
 }
