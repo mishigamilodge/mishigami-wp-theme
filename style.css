@@ -16,6 +16,6 @@ This work, like WordPress, is released under GNU General Public License, version
 
 @import url("../avant/style.css");
 
-body, .widget-area .widget a {
-    color: inherit!important;
+.widget-area .widget a {
+    color: #ab3d3a!important;
 }
