@@ -16,6 +16,9 @@ This work, like WordPress, is released under GNU General Public License, version
 
 @import url("../avant/style.css");
 
-.widget-area .widget a {
+.widget-area .widget a:hover {
     color: #ab3d3a!important;
+}
+.widget-area .widget a {
+    color: #de7158!important;
 }
