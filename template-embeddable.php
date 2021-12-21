@@ -13,28 +13,25 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id='easywp-content-wrapper' class='clearfix'>
+    <div id="primary" class="content-area content-area-full">
+        <main id="main" class="site-main" role="main">
 
-<div id='easywp-main-wrapper'>
-<div class='theiaStickySidebar'>
+            <?php get_template_part( '/templates/titlebar' ); ?>
 
-<?php while (have_posts()) : the_post(); ?>
+            <?php while ( have_posts() ) : the_post(); ?>
 
-    <?php get_template_part( 'template-parts/content', 'page' ); ?>
+                <?php get_template_part( 'templates/contents/content', 'page' ); ?>
 
-    <?php
-    // If comments are open or we have at least one comment, load up the comment template
-    if ( comments_open() || get_comments_number() ) :
-            comments_template();
-    endif;
-    ?>
+                <?php
+                    // If comments are open or we have at least one comment, load up the comment template
+                    if ( comments_open() || get_comments_number() ) :
+                        comments_template();
+                    endif;
+                ?>
 
-<?php endwhile; ?>
-<div class="clear"></div>
+            <?php endwhile; // end of the loop. ?>
 
-</div>
-</div>
-
-</div><!-- #easywp-content-wrapper -->
+        </main><!-- #main -->
+    </div><!-- #primary -->
 </body>
 </html>
