@@ -22,3 +22,7 @@ This work, like WordPress, is released under GNU General Public License, version
 .widget-area .widget a {
     color: #de7158!important;
 }
+
+.oa_red_box {
+    border: 2px solid #de7158;
+}
