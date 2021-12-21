@@ -16,8 +16,6 @@
     <div id="primary" class="content-area content-area-full">
         <main id="main" class="site-main" role="main">
 
-            <?php get_template_part( '/templates/titlebar' ); ?>
-
             <?php while ( have_posts() ) : the_post(); ?>
 
                 <?php get_template_part( 'templates/contents/content', 'page' ); ?>
