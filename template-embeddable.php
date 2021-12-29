@@ -12,7 +12,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> style="background: none!important">
     <div id="primary" class="content-area content-area-full">
         <main id="main" class="site-main" role="main">
 
