@@ -25,4 +25,11 @@ This work, like WordPress, is released under GNU General Public License, version
 
 .oa_red_box {
     border: 2px solid #de7158;
+    padding: 
+}
+.oa_member_portal_img {
+    margin-top: 2px;
+}
+.oa_member_portal_text {
+    margin-right: 0.5em;
 }
